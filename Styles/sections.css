@@ -69,7 +69,7 @@ section header {
   &>div {
   
   display: grid;
-  grid-template-columns: repeat( 4, 1fr );
+  grid-template-columns: repeat(4, 1fr );
   gap: 16px;
 }
 
@@ -112,4 +112,8 @@ figure {
 
 aside {
   grid-area: aside;
+  
+  h2{
+     margin-block: 8px 4px;
+  }
 }
